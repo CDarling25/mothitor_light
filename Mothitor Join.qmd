@@ -1,0 +1,24 @@
+---
+title: "Mothitor Join"
+format: html
+editor: visual
+---
+
+```{r}
+moon_data <- read.csv("moon_phases.csv")
+mothitor_data <- read.csv("SQM_MacLeish_2025-02.csv") # Will need to input your own file here
+```
+
+```{r}
+library(sqldf)
+```
+
+```{r}
+outfile <- sqldf(
+  'SELECT *
+   FROM mothitor_data
+   INNER JOIN moon_data
+   ON moon_data.Date = SUBSTRING(`UTC_Date_And_Time`, 1, 10);')
+```
+
+
