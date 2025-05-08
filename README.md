@@ -14,7 +14,7 @@ You can also find an overview of our different approaches to this project in [th
 
 ### 'Mothitor Join.qmd'
 
-Takes in a manually input (in R) csv of Mothitor light sensor data and joins it to the moon phase data based on date.
+Takes in a CSV of Mothitor light sensor data as a manual input in the R code and joins it to the moon phase data based on date.
 
 ### 'convert.py'
 
