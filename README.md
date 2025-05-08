@@ -23,3 +23,8 @@ Sample code that creates databases for the Mothitor light data and moon phase da
 ## 'moon_phases.csv'
 
 A .csv file of moon phase data.
+
+## mothitoR R package
+
+An R package with data summary functions for light and moon data:
+https://github.com/CDarling25/mothitoR
