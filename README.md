@@ -45,3 +45,5 @@ This R package contains data summary functions for light and moon data: https://
 Instructions for the MothitR R package can be found in the MothitR's README.
 
 To set up this project, clone this repository and run 'convert.py' or 'convert_and_moon.py' depending on desired output. In the command line, input the filename for the file to be processed.
+
+Presentation Link: https://docs.google.com/presentation/d/10UENs4Snu6hpDb2WjVCBXUIZV9QgE7sOm1h-WBfR50c/edit?usp=sharing
