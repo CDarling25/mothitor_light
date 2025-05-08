@@ -8,7 +8,7 @@ For this purpose, Skye Weaver-Worster 25J', worked to implement a data transfer 
 
 Our project enables a more accessible usage of that data, and adds additional information. Indeed, including moon phase data was a requirement for our stakeholder, Professor Abarca. Because accessibility was our main focus, we focused on using a restricted amount of tools to harmonize the data. We also made it into a .csv format, prefered by ou stakeholder. Furthermore, to ease future data analysis in Professor Abarca's classes and lab, we incorporated an R package, [mothitoR](https://github.com/CDarling25/mothitoR), to summarize and visualize the data.
 
-You can also find an overview of our different approaches to this project in [this presentation](https://docs.google.com/presentation/d/10UENs4Snu6hpDb2WjVCBXUIZV9QgE7sOm1h-WBfR50c/edit?slide=id.p#slide=id.p).
+You can also find an overview of our different approaches to this project in [this presentation](https://docs.google.com/presentation/d/10UENs4Snu6hpDb2WjVCBXUIZV9QgE7sOm1h-WBfR50c/edit?slide=id.p#slide=id.p), and in our [Design Summary paragraph](https://docs.google.com/document/d/1JP4jJJQ5Bwf0XTVN_It5GripsNAh8PhkWYA-Uh1xmjQ/edit?usp=sharing).
 
 ## Included Files
 
@@ -44,6 +44,6 @@ This R package contains data summary functions for light and moon data: https://
 
 Instructions for the mothitoR R package can be found in the package's README.
 
-To set up this project, clone this repository and run 'convert.py' or 'convert_and_moon.py' depending on desired output. In the command line, input the filename for the file to be processed.
+[Here](https://docs.google.com/document/d/1v3fctFXt-vJz9fwxkUqstpU3buBdYUe5B9BYFOX2wok/edit?usp=sharing) is a link to our User Instructions Document for this repository.
 
 Presentation Link: https://docs.google.com/presentation/d/10UENs4Snu6hpDb2WjVCBXUIZV9QgE7sOm1h-WBfR50c/edit?usp=sharing
