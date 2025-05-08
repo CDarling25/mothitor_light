@@ -26,15 +26,15 @@ Takes in a user-input Mothitor light sensor .dat file and converts it to a .csv.
 
 `python3 convert_and_moon.py [file_name]`
 
-Takes in a user-input Mothitor light sensor .dat file, converts it to a .csv, and joins the moon phase data to it.
+Takes in a user-input Mothitor light sensor .dat file, converts it to a .csv, and joins the moon phase data to it using Python.
 
 ### 'moon_light_join.sql'
 
-Sample code that creates databases for the Mothitor light data and moon phase data, and joins them together in a SQL environment.
+Sample code that creates databases for the Mothitor light data and moon phase data and joins them together in a SQL environment.
 
 ### 'moon_phases.csv'
 
-A .csv file of moon phase data.
+A CSV file of moon phase data from 2000 to 2030. Includes date, area, category, and phase.
 
 ## Our MothitoR R package
 
