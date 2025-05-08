@@ -1,4 +1,4 @@
-/* CREATE TABLE `MacLeish` (
+CREATE TABLE `MacLeish` (
   `UTC_Date_And_Time` text,
   `Local_Date_And_Time` text,
   `Temperature` double DEFAULT NULL,
@@ -22,7 +22,7 @@ IGNORE 1 LINES;
 LOAD DATA INFILE 'moon_phases_UTC_1800-2050.csv' INTO TABLE moon_phases
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\r\n'
-IGNORE 1 LINES; */
+IGNORE 1 LINES;
 
 SELECT *
 FROM mothitor_light.MacLeish
